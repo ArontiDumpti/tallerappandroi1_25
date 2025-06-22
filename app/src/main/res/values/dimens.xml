@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="miimagen">
+        30dp
+    </dimen>
+
+    <dimen name="mititulo">
+        16sp
+    </dimen>
+
+    <dimen name="AltoCornerRadius">
+        3sp
+    </dimen>
+
+    <dimen name="miimagensplash">
+        250dp
+    </dimen>
+
+</resources>

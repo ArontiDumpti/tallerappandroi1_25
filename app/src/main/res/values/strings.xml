@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">moviles25aronti</string>
+    <string name="title_activity_splashscreen">splashscreen</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main22">MainActivity22</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Que_es">¿QUE ES SUMMIT?</string>
+</resources>

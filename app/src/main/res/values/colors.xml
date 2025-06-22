@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="azulverde">#34DDC9</color>
+    <color name="rosa">#E235EF</color>
+    <color name="verdene">#0BEA20</color>
+    <color name="azularonti">#3a82d7</color>
+    <color name="rojoronti">#ac2336</color>
+
+
+</resources>

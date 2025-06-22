@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.speakersdetaildialogfragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/blurredasadasasd" >
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/TBscheduledetaildialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/ic_launcher_round"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/rosa"
+                        android:alpha="0.5"/>
+
+
+                </RelativeLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="1dp"
+                    android:layout_margin="15dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/TVitemscheduledetaildialog"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Stepe Jobs"
+                            android:textStyle="bold"
+                            android:textSize="30dp"
+                            android:textColor="@color/black"
+                            android:fontFamily="casual"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:id="@+id/TVitemscheduledetaildialog1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Full Stack Developer"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:id="@+id/TVitemscheduledetaildialog2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Apple"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:gravity="center"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/facebuki32"/>
+
+
+
+                        <TextView
+                            android:id="@+id/TVitemscheduledetaildialog3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Millonario excentrico, regala dinero a los necesitados y brinda conferencias en todo Sudamerica.
+"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+  </FrameLayout>
+</FrameLayout>

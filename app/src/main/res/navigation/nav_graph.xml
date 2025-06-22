@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navHomeFragment">
+    <fragment
+        android:id="@+id/navHomeFragment"
+        android:name="com.example.moviles25aronti.fragment.home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home3_to_schedule2"
+            app:destination="@+id/navScheduleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navScheduleFragment"
+        android:name="com.example.moviles25aronti.fragment.schedule"
+        android:label="fragment_schedule"
+        tools:layout="@layout/fragment_schedule" >
+        <action
+            android:id="@+id/action_schedule2_to_speakers"
+            app:destination="@+id/navSpeakersFragment" />
+        <action
+            android:id="@+id/action_navScheduleFragment_to_FragmentScheduleDetailDialogFragment"
+            app:destination="@id/FragmentScheduleDetailDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navSpeakersFragment"
+        android:name="com.example.moviles25aronti.fragment.speakers"
+        android:label="fragment_speakers"
+        tools:layout="@layout/fragment_speakers" >
+        <action
+            android:id="@+id/action_speakers_to_ubication"
+            app:destination="@+id/navUbicationFragment" />
+        <action
+            android:id="@+id/action_navSpeakersFragment_to_FragmentSpeakerDetailDialog"
+            app:destination="@id/FragmentSpeakerDetailDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/navUbicationFragment"
+        android:name="com.example.moviles25aronti.fragment.ubication"
+        android:label="fragment_ubication"
+        tools:layout="@layout/fragment_ubication" >
+        <action
+            android:id="@+id/action_navUbicationFragment_to_FragmentUbicationDetailDialogFragment"
+            app:destination="@id/FragmentUbicationDetailDialogFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/FragmentSpeakerDetailDialog"
+        android:name="com.example.moviles25aronti.fragment.speakersdetaildialogfragment"
+        android:label="speakersdetaildialogfragment"
+        tools:layout="@layout/fragment_speakersdetaildialogfragment">
+    </dialog>
+
+    <dialog
+        android:id="@+id/FragmentUbicationDetailDialogFragment"
+        android:name="com.example.moviles25aronti.fragment.ubicationdetaildialogfragment"
+        android:label="ubicationdetaildialogfragment"
+        tools:layout="@layout/fragment_ubicationdetaildialogfragment">
+    </dialog>
+
+    <dialog
+        android:id="@+id/FragmentScheduleDetailDialogFragment"
+        android:name="com.example.moviles25aronti.fragment.schedule_detail_dialogfragment"
+        android:label="schedule_detail_dialogfragment"
+        tools:layout="@layout/fragment_schedule_detail_dialogfragment">
+    </dialog>
+
+
+</navigation>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rojoronti">
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TVhora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:00 AM"
+                android:gravity="right|bottom"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="70dp"/>
+
+            <TextView
+                android:id="@+id/TVhora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:00 AM"
+                android:gravity="right|bottom"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="70dp"/>
+
+            <TextView
+                android:id="@+id/TVhora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:00 AM"
+                android:gravity="right|bottom"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="70dp"/>
+
+            <TextView
+                android:id="@+id/TVhora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:00 AM"
+                android:gravity="right|bottom"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="70dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La Inteligencia Artificial en Sistemas de Información: Impacto y Oportunidades"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arquitectura de Microservicios: El futuro del software escalable"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="35dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ciberseguridad en Sistemas Distribuidos: Desafíos y Soluciones"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computación Cuántica y su Impacto en el Desarrollo de Sistemas"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+ </ScrollView>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
