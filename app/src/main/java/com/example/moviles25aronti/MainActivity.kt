@@ -9,7 +9,7 @@ import com.google.firebase.firestore.FirebaseFirestore
 import org.json.JSONArray
 import org.json.JSONObject
 
-class MainActivity : AppCompatActivity() {
+class  MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -176,13 +176,13 @@ class MainActivity : AppCompatActivity() {
     for (i in 0  until  jsonArr.length()) {
         val aux = jsonArr.get(i) as JSONObject
         var ponente = Ponente()
-        ponente.nombre = aux.getString("nombre")
-        ponente.profesion = aux.getString("profesion")
-        ponente.trabajo = aux.getString("trabajo")
-        ponente.biografia = aux.getString("biografia")
+        ponente.nombre = aux.getString("name")
+        ponente.profesion = aux.getString("jobtitle")
+        ponente.trabajo = aux.getString("workplace")
+        ponente.biografia = aux.getString("biography")
         ponente.twitter = aux.getString("twitter")
-        ponente.imagen = aux.getString("imagen")
-        ponente.categoria = aux.getInt("categoria")
+        ponente.imagen = aux.getString("image")
+        ponente.categoria = aux.getInt("category")
         FirebaseFirestore.collection("Ponentes").document().set(ponente)
       }
     }
