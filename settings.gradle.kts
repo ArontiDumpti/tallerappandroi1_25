@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "moviles25aronti"
+rootProject.name = "UNS Summit"
 include(":app")
 include(":app")
  
